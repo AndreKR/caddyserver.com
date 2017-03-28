@@ -36,8 +36,10 @@ These values are obtained from the request.
 *   **{scheme}** - The protocol/scheme used (usually http or https)
 *   **{uri}** - The request URI (includes path, query string, and fragment)
 *   **{uri_escaped}** - The query-escaped variant of {uri}
+*   **{user}** - The basicauth user. `-` if not available
 *   **{when}** - Timestamp in the format `02/Jan/2006:15:04:05 -0700` in local time
 *   **{when_iso}** - Timestamp in the format `2006-01-02T15:04:05Z` in UTC
+
 
 ### Response Placeholders
 

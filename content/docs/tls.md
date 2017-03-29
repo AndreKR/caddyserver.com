@@ -26,6 +26,10 @@ Disables TLS for the site. Not recommended unless you have a good reason. With T
 
 Although the above syntax is not needed to enable TLS, it allows you to specify the email address used for your CA account, instead of prompting for one or using another one from a previous run.
 
+Providing an email address is optional, to leave it empty you can specify:
+
+<code class="block"><span class="hl-directive">tls</span> <span class="hl-arg">no_email</span></code>
+
 To use Caddy with your own certificate and key:
 
 <code class="block"><span class="hl-directive">tls</span> <span class="hl-arg"><i>cert key</i></span></code>
